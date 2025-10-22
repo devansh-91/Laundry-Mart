@@ -3,76 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry Service</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Laundry Mart</title>
 </head>
 <body>
-    <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
-    <img src="Image.png" height="600" alt="" align="right">
-    <p>Laundry Wallah (Laundry Mart) is your trusted destination for professional garment care, offering high-quality laundry, dry cleaning, and ironing services. Designed to make life easier, our service ensures your clothes remain spotless, fresh, and well-maintained without the hassle of home washing. We specialize in handling all types of fabrics, from everyday casual wear to delicate silks and formal attire, providing expert cleaning with the utmost care. With eco-friendly detergents, modern machines, and skilled staff, we guarantee premium results that protect both your garments and the environment. Our fast turnaround times, affordable pricing, and attention to detail make us the go-to choice for students, working professionals, and families. At Laundry Wallah, customer satisfaction is our top priority, and we strive to deliver convenience with quality. Whether you need a quick wash, crisp ironing, or reliable dry cleaning, Laundry Wallah is here to keep you looking sharp and confident every day.</p><br>
-    <hr>
-    <h3>Our Services</h3>
-    <ul>
-        <li>Washing and Drying</li>
-        <li>Ironing and Folding</li>
-        <li>Dry Cleaning</li>
-        <li>Stain Removal</li>
-        <li>Express Service</li>
-        <li>Special Garment Care</li>
-        <li>And more...</li>
-    </ul>
-    <hr>
-    <h3>Price List</h3>
-    <table border="1">
-        <tr>
-            <th>Service</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>Washing and Drying (per kg)</td>
-            <td>$5</td>
-        </tr>
-        <tr>
-            <td>Ironing (per item)</td>
-            <td>$2</td>
-        </tr>
-        <tr>
-            <td>Dry Cleaning (per item)</td>
-            <td>$10</td>
-        </tr>
-        <tr>
-            <td>Stain Removal (per item)</td>
-            <td>$3</td>
-        </tr>
-        <tr>
-            <td>Express Service (additional fee)</td>
-            <td>$7</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Book Now</h3>
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" required>
-        <br>
-        <label for="service">Select Service:</label>
-        <input type="radio" id="washing" name="service" value="washing" required>
-        <label for="washing">Washing and Drying</label><br>
-        <input type="radio" id="ironing" name="service" value="ironing">
-        <label for="ironing">Ironing and Folding</label><br>
-        <input type="radio" id="dry_cleaning" name="service" value="dry_cleaning">
-        <label for="dry_cleaning">Dry Cleaning</label><br>
-        <input type="radio" id="stain_removal" name="service" value="stain_removal">
-        <label for="stain_removal">Stain Removal</label><br>
-        <input type="radio" id="express" name="service" value="express">
-        <label for="express">Express Service</label><br>
-
-        <input type="submit" value="Book Now">
-    </form>
-    <hr>
-    <p>Contact us at : info@laundrymart.com</p>
+    <div class="container">
+        <div class="head">
+            <div class="left">
+                <img src="logo.jpg" alt="Logo" id="logo">
+            </div>
+            <div class="center">
+                <a href="Home.html">Home</a>
+                <a href="Services.html">Services</a>
+                <a href="About.html">About Us</a>
+                <a href="Contact.html">Contact Us</a>
+            </div>
+            <div class="right">
+                <p><b>Username</b></p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="left">
+                <h1>Fresh Clothes, Fresh Start.</h1>
+                <h2>Laundry Services</h2>
+                <p>Experience premium laundry care with our modern wash solutions.
+                     From everyday wear to delicate fabrics, we ensure spotless cleaning,
+                      gentle handling, and doorstep convenience — because your clothes 
+                      deserve the best care, every time.</p>
+                <p id="book">Book a service today!</p>
+            </div>
+            <div class="right">
+                <img src="laundry2.jpg" alt="" id="laundry">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

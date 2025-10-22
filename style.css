@@ -1,0 +1,95 @@
+.container{
+
+}
+.head{
+    background-color: #f8f8f8;
+}
+.head .left{
+    display: inline;
+    height: 80px;
+    font-size: 24px;
+}
+
+.head .center{
+    display: inline;
+    float: center;
+    margin-left: 35%;
+    font-size: 20px;
+    
+}
+
+.head .center a{
+    text-decoration: none;
+    color: gray;
+    margin: 20px;
+}
+
+.head .right{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(161, 202, 235);
+    color: blue;
+    height: auto;
+    width: auto;
+    border-radius: 10%;
+}
+
+#book{
+    background-color: rgb(92, 92, 255);
+    color: aliceblue;
+    width: 350px;
+    font-size: 40px;
+    /* height: 30px; */
+    border-radius: 5%;
+}
+
+#logo{
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 50%;
+    display: inline;
+}
+
+.body{
+    margin: 50px;
+}
+
+.body h1{
+    color:gray;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.body h2{
+    color: rgb(0, 183, 255);
+    font-size: 50px;
+    margin: 0px;
+}
+
+.body p{
+    color: gray;
+    font-size: 20px;
+}
+
+.body .left{
+    width: 45%;
+    height: 500px;
+    align-items: left;
+    align-content: center;
+    display: inline-block;
+}
+.body .right{
+    width: 50%;
+    float: right;
+    display: inline;
+}
+
+#laundry{
+    width: 80%;
+    border-radius: 12%;
+}
